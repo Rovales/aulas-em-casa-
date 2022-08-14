@@ -1,0 +1,15 @@
+programa
+{
+		real velKmH, velMS, tempo
+		funcao inicio()
+{
+		escreva("Qual a velocidade do veículo, em km/h? ")
+		leia(velKmH)
+		
+		velMS = velKmH / 3.6
+		tempo = 435 / velKmH
+		
+		escreva("A velocidade do veículo é de " + velMS + "m/s\n")
+		escreva("Uma viagem de São Paulo para o Rio irá levar " + tempo + " hras")
+	}
+}
