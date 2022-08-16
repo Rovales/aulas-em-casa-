@@ -1,0 +1,30 @@
+programa
+{
+	
+//Uma loja oferece 10% de desconto se a compra efetuada por um cliente for de no
+	//mínimo R$100,00.
+	//Escreva um programa que peça para o usuário (vendedor) inserir o valor da compra
+	//e então calcule o total a ser pago pelo cliente, incluindo o desconto da loja, quando
+	//aplicável
+	real venda
+	real desconto
+	real total
+	funcao inicio()
+	{
+	escreva ("-----------------------------------------------------------\n")
+		escreva (" COMPRAS DE R$100,00 REAIS OU ACIMA TERÁ UM DESCONTO DE 10% \n")
+		escreva ("-------------------------------------------------------------\n")
+		escreva("Digite o valor da compra ")
+		leia (venda)
+		desconto = venda * 10 / 100
+		total = venda - desconto
+
+		se(venda >=100){
+			escreva (" o valor total da compra com desconto de 10% ficou " + total+" R$ reais ")
+		}
+		senao{
+			escreva (" O valor total sem desconto ficou "+ venda +"R$ reais ")
+		}
+
+	}
+}
