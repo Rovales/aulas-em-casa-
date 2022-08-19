@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Util
+-->u
+	
+inteiro cont
+	inteiro quantos
+	funcao inicio()
+	{
+		escreva ("quer contar até quantos ? ")
+		leia (quantos)
+		
+		para(cont = 1; cont <= quantos; quantos --){
+		escreva (quantos+" \n")
+		u.aguarde(1000)
+		limpa()		
+		}
+		escreva ("booooom")
+	}
+}
