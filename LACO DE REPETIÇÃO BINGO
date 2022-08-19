@@ -1,0 +1,22 @@
+programa
+{
+	inclua biblioteca Util
+	
+inteiro contA, contB
+	funcao inicio()
+	{
+	
+		para(contA = 1; contA <5; contA++){
+			escreva (" rodada "+ contA+"\n")
+			para(contB = 5; contB >0; contB--){
+				inteiro sorte = Util.sorteia(1, 999)
+				escreva ("Número sorteado foi " + sorte + "\n")
+				Util.aguarde(1000)
+	
+					
+				 
+			}
+		}
+		
+	}
+}
