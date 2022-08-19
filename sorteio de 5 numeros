@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Util
+-->u
+	
+inteiro cont
+	funcao inicio()
+	{
+		para(cont = 1; cont <=5; cont++){
+			escreva (u.sorteia(1, 50 )+" ")
+		}
+		
+
+
+
+		
+	}
+}
